@@ -127,3 +127,6 @@ pyvenv.cfg
 *.pyd
 *.py[cod]
 *.$py.class
+
+# Ignore Visual Studio folder
+.vs/
