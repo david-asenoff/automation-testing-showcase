@@ -6,7 +6,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 
 chrome_options = Options()
-chrome_options.add_argument('--disable-search-engine-choice-screen')
+chrome_options.add_argument('--disable-search-engine-choice-screen') # Disable the search engine choice screen in Chrome
+chrome_options.add_argument("--start-maximized")  # Start in full-screen mode
 
 # Set up the WebDriver
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)

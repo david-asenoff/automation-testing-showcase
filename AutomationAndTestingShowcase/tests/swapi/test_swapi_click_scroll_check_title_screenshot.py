@@ -7,7 +7,8 @@ from datetime import datetime
 
 # Configure options for ChromeDriver (optional)
 chrome_options = Options()
-chrome_options.add_argument('--disable-search-engine-choice-screen')
+chrome_options.add_argument('--disable-search-engine-choice-screen') # Disable the search engine choice screen in Chrome
+chrome_options.add_argument("--start-maximized")  # Start in full-screen mode
 
 # Initialize the WebDriver
 driver = webdriver.Chrome(options=chrome_options)
@@ -43,7 +44,7 @@ try:
             current_time = datetime.now()
             timestamp = current_time.strftime("%Y%m%d_%H%M%S")
 
-            screenshot_path = f"screenshot_{timestamp}.png"
+            screenshot_path = f"screenshoots/swapi_screenshot_{timestamp}.png"
             driver.save_screenshot(screenshot_path)
 
             break

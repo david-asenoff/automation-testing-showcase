@@ -12,7 +12,6 @@ chrome_options = Options()
 chrome_options.add_argument("--start-maximized")  # Start in full-screen mode
 chrome_options.add_argument('--disable-search-engine-choice-screen')
 
-
 # Initialize the WebDriver
 driver = webdriver.Chrome(options=chrome_options)
 

@@ -8,8 +8,8 @@ import time
 
 # Set up Chrome options
 chrome_options = Options()
-chrome_options.add_argument('--disable-search-engine-choice-screen')
-chrome_options.add_argument("--window-size=1920x1080")  # Set window size for headless mode
+chrome_options.add_argument('--disable-search-engine-choice-screen') # Disable the search engine choice screen in Chrome
+chrome_options.add_argument("--start-maximized")  # Start in full-screen mode
 
 # Initialize the WebDriver
 driver = webdriver.Chrome(options=chrome_options)
