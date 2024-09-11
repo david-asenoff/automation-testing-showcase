@@ -1,0 +1,26 @@
+[
+    {
+        "url": "https://sandbox.oxylabs.io/products",
+        "search_box": "input[type=text]",
+        "product": "2658",
+        "price_text": ".price-wrapper"
+    },
+        {
+        "url": "https://sandbox.oxylabs.io/products",
+        "search_box": "input[type=text]",
+        "product": "2650",
+        "price_text": ".price-wrapper"
+    },
+    {
+        "url": "https://sandbox.oxylabs.io/products",
+        "search_box": "input[type=text]",
+        "product": "ufc 4",
+        "price_text": ".price-wrapper"
+    },
+    {
+        "url": "https://sandbox.oxylabs.io/products",
+        "search_box": "input[type=text]",
+        "product": "The Legend of Zelda Collector's Edition",
+        "price_text": ".price-wrapper"
+    }
+]
